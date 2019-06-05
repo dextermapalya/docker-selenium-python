@@ -1,0 +1,12 @@
+How to run seleinum tests using docker-compose
+Source https://testdriven.io/blog/distributed-testing-with-selenium-grid/
+It can be used to perform parallel tests thereby saving time
+
+1) Git clone url
+2) export BROWSER=chrome
+3) export NODE_HUB_ADDRESS=
+4) virtualenv -p python3 venv 
+5) pip install -r requirements.txt
+6) source venv/bin/activate
+5) cd project
+6) python sunnxt.py

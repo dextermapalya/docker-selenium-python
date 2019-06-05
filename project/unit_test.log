@@ -1,0 +1,33 @@
+2019-05-31 09:34:42,587 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-31 09:34:47,164 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-31 09:34:47,359 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-31 09:34:47,360 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-31 09:34:47,472 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-31 09:34:49,476 — sunnxt_homepage — INFO — Verifying form validations for signin
+2019-05-31 09:34:49,524 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-31 09:34:52,089 — sunnxt_homepage — INFO — Verifying Invalid user credentials
+2019-05-31 09:34:52,113 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-31 09:34:52,396 — sunnxt_homepage — INFO — Sendinv invalid credentials
+2019-05-31 09:34:54,506 — sunnxt_homepage — INFO — Clicking login button 
+2019-05-31 14:41:13,773 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-31 14:41:17,093 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-31 14:41:17,180 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-31 14:41:17,181 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-31 14:41:17,292 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-31 14:41:19,294 — sunnxt_homepage — INFO — Verifying form validations for signin
+2019-05-31 14:41:19,316 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-31 14:41:22,037 — sunnxt_homepage — INFO — Verifying Invalid user credentials
+2019-05-31 14:41:22,071 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-31 14:41:22,376 — sunnxt_homepage — INFO — Sendinv invalid credentials
+2019-05-31 14:41:24,497 — sunnxt_homepage — INFO — Clicking login button 
+2019-05-31 14:41:40,064 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-31 14:41:44,695 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-31 14:41:44,765 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-31 14:41:44,766 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-31 14:41:44,859 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-31 14:41:46,860 — sunnxt_homepage — INFO — Verifying form validations for signin
+2019-05-31 14:41:46,896 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-31 14:41:49,374 — sunnxt_homepage — INFO — Verifying Invalid user credentials
+2019-05-31 14:41:49,389 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-31 14:41:49,644 — sunnxt_homepage — INFO — Sendinv invalid credentials
+2019-05-31 14:41:51,754 — sunnxt_homepage — INFO — Clicking login button 

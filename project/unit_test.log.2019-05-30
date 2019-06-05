@@ -1,0 +1,729 @@
+2019-05-30 14:51:24,322 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 14:51:32,156 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 14:51:32,212 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 14:51:32,212 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 14:51:32,284 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 14:51:34,286 — sunnxt_homepage — INFO — Verifying signin modal window
+2019-05-30 14:51:36,330 — sunnxt_homepage — INFO — close button found and click event sent
+2019-05-30 14:52:23,204 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 14:52:29,090 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 14:52:37,605 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 100, in test_homepage
+    self.verify_profile_icon()
+  File "sunnxt.py", line 40, in verify_profile_icon
+    EC.presence_of_element_located((By.XPATH, profile_icon_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 15:01:12,008 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:01:20,292 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:01:20,337 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:01:20,338 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:01:20,388 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:01:22,390 — sunnxt_homepage — INFO — Verifying signin modal window
+2019-05-30 15:01:24,437 — sunnxt_homepage — INFO — close button found and click event sent
+2019-05-30 15:01:24,437 — sunnxt_homepage — INFO — Verifying signin modal title
+2019-05-30 15:01:24,476 — sunnxt_homepage — ERROR — argument of type 'NoneType' is not iterable
+Traceback (most recent call last):
+  File "sunnxt.py", line 117, in test_homepage
+    self.verify_signin_modal_title()
+  File "sunnxt.py", line 102, in verify_signin_modal_title
+    self.assertIn(signin_text, signin_title.get_attribute("text") )
+  File "/usr/lib/python3.6/unittest/case.py", line 1086, in assertIn
+    if member not in container:
+TypeError: argument of type 'NoneType' is not iterable
+2019-05-30 15:11:30,006 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:11:35,095 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:11:35,146 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:11:35,146 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:11:35,233 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:11:37,234 — sunnxt_homepage — INFO — Verifying signin modal window
+2019-05-30 15:11:39,270 — sunnxt_homepage — INFO — close button found and click event sent
+2019-05-30 15:11:39,271 — sunnxt_homepage — INFO — Verifying signin modal title
+2019-05-30 15:12:28,359 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:12:32,854 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:12:32,920 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:12:32,921 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:12:33,015 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:12:35,018 — sunnxt_homepage — INFO — Verifying signin modal window
+2019-05-30 15:12:37,062 — sunnxt_homepage — INFO — close button found and click event sent
+2019-05-30 15:12:37,062 — sunnxt_homepage — INFO — Verifying signin modal title
+2019-05-30 15:13:41,783 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:13:47,191 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:13:47,249 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:13:47,249 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:13:47,335 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:13:49,338 — sunnxt_homepage — INFO — Verifying signin modal window
+2019-05-30 15:13:51,363 — sunnxt_homepage — INFO — close button found and click event sent
+2019-05-30 15:13:51,363 — sunnxt_homepage — INFO — Verifying signin modal title
+2019-05-30 15:14:15,389 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:14:19,981 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:14:20,043 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:14:20,043 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:14:20,104 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:14:22,106 — sunnxt_homepage — INFO — Verifying signin modal window
+2019-05-30 15:14:24,142 — sunnxt_homepage — INFO — close button found and click event sent
+2019-05-30 15:14:24,142 — sunnxt_homepage — INFO — Verifying signin modal title
+2019-05-30 15:14:54,741 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:14:58,685 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:14:58,742 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:14:58,742 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:14:58,837 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:15:00,839 — sunnxt_homepage — INFO — Verifying signin modal window
+2019-05-30 15:15:02,905 — sunnxt_homepage — INFO — close button found and click event sent
+2019-05-30 15:15:02,905 — sunnxt_homepage — INFO — Verifying signin modal title
+2019-05-30 15:15:49,026 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:15:57,562 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:15:57,609 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:15:57,609 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:15:57,663 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:15:59,666 — sunnxt_homepage — INFO — Verifying signin modal window
+2019-05-30 15:16:01,710 — sunnxt_homepage — INFO — close button found and click event sent
+2019-05-30 15:16:01,710 — sunnxt_homepage — INFO — Verifying signin modal title
+2019-05-30 15:16:28,123 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:16:32,990 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:16:33,048 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:16:33,048 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:16:33,113 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:16:35,114 — sunnxt_homepage — INFO — Verifying signin modal window
+2019-05-30 15:16:37,146 — sunnxt_homepage — INFO — close button found and click event sent
+2019-05-30 15:16:37,146 — sunnxt_homepage — INFO — Verifying signin modal title
+2019-05-30 15:17:58,699 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:18:03,002 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:18:03,091 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:18:03,092 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:18:03,143 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:18:05,144 — sunnxt_homepage — INFO — Verifying signin modal window
+2019-05-30 15:18:07,195 — sunnxt_homepage — INFO — close button found and click event sent
+2019-05-30 15:18:07,196 — sunnxt_homepage — INFO — Verifying signin modal title
+2019-05-30 15:19:10,167 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:19:14,588 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:19:14,650 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:19:14,650 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:19:14,727 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:19:16,728 — sunnxt_homepage — INFO — Verifying signin modal window
+2019-05-30 15:19:18,778 — sunnxt_homepage — INFO — close button found and click event sent
+2019-05-30 15:19:18,778 — sunnxt_homepage — INFO — Verifying signin modal title
+2019-05-30 15:25:57,403 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:26:02,409 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:26:02,480 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:26:02,480 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:26:02,575 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:26:04,575 — sunnxt_homepage — INFO — Verifying signin modal window
+2019-05-30 15:26:06,602 — sunnxt_homepage — INFO — close button found and click event sent
+2019-05-30 15:26:06,602 — sunnxt_homepage — INFO — Verifying signin modal title
+2019-05-30 15:26:35,735 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:26:39,054 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:26:39,143 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:26:39,143 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:26:39,227 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:26:41,229 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:26:49,678 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 137, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 115, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, username_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 15:27:24,749 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:27:29,881 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:27:29,930 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:27:29,931 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:27:30,005 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:27:32,006 — sunnxt_homepage — INFO — Verifying signin modal window
+2019-05-30 15:27:34,054 — sunnxt_homepage — INFO — close button found and click event sent
+2019-05-30 15:28:06,939 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:28:16,461 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:28:16,511 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:28:16,511 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:28:16,591 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:28:18,594 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:28:26,652 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 137, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 115, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, username_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 15:31:18,878 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:31:24,449 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:31:24,510 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:31:24,511 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:31:24,563 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:31:26,565 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:31:34,630 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 137, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 115, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, username_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 15:31:48,091 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:31:52,911 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:31:52,980 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:31:52,980 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:31:53,078 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:31:55,078 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:32:03,604 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 137, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 115, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, username_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 15:32:51,666 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:32:54,666 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:32:54,748 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:32:54,748 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:32:54,843 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:32:56,845 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:33:21,012 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:33:24,771 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:33:24,837 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:33:24,837 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:33:24,946 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:33:26,948 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:43:19,637 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:43:24,336 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:43:24,431 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:43:24,432 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:43:24,517 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:43:26,518 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:43:26,555 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 15:43:26,576 — sunnxt_homepage — ERROR — 'Password' not found in 'Email / Mobile'
+Traceback (most recent call last):
+  File "sunnxt.py", line 152, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 123, in verify_login_form
+    self.assertIn(password_placeholder, username_input.get_attribute('placeholder') )
+  File "/usr/lib/python3.6/unittest/case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/usr/lib/python3.6/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: 'Password' not found in 'Email / Mobile'
+2019-05-30 15:44:19,674 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:44:22,886 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:44:22,997 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:44:22,998 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:44:23,120 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:44:25,122 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:44:25,155 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 15:44:25,217 — sunnxt_homepage — ERROR — 'WebElement' object has no attribute 'sendKeys'
+Traceback (most recent call last):
+  File "sunnxt.py", line 152, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 124, in verify_login_form
+    username_input.sendKeys("12345678")
+AttributeError: 'WebElement' object has no attribute 'sendKeys'
+2019-05-30 15:45:14,062 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:45:19,177 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:45:19,256 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:45:19,256 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:45:19,336 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:45:21,338 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:45:21,378 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 15:45:29,724 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 152, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 128, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, signin_button_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 15:47:35,503 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:47:43,871 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:47:43,940 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:47:43,940 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:47:44,019 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:47:46,021 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:47:46,066 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 15:47:54,825 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 152, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 128, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, signin_button_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 15:48:47,834 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:48:51,294 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:48:51,357 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:48:51,357 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:48:51,455 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:48:53,458 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:48:53,492 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 15:49:02,360 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 152, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 128, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, signin_button_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 15:50:20,709 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:50:27,196 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:50:27,250 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:50:27,250 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:50:27,339 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:50:29,342 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:50:29,366 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 15:50:29,675 — sunnxt_homepage — ERROR — name 'printf' is not defined
+Traceback (most recent call last):
+  File "sunnxt.py", line 152, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 130, in verify_login_form
+    printf("Attribute", submit_button.get_attribute('class'))
+NameError: name 'printf' is not defined
+2019-05-30 15:50:48,010 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:50:50,737 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:50:50,828 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:50:50,828 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:50:50,894 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:50:52,896 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:50:52,943 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 15:52:09,203 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:52:14,588 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:52:14,665 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:52:14,666 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:52:14,800 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:52:16,802 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:52:16,839 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 15:52:17,218 — sunnxt_homepage — ERROR — 'btn btn-red' not found in 'form-control log-auto-focus'
+Traceback (most recent call last):
+  File "sunnxt.py", line 153, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 131, in verify_login_form
+    self.assertIn(btn_colors, username_input.get_attribute('class') )
+  File "/usr/lib/python3.6/unittest/case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/usr/lib/python3.6/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: 'btn btn-red' not found in 'form-control log-auto-focus'
+2019-05-30 15:53:05,481 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:53:08,692 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:53:08,778 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:53:08,778 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:53:08,862 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:53:10,865 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:53:10,917 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 15:54:35,525 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 15:54:40,501 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 15:54:40,585 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 15:54:40,585 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 15:54:40,674 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 15:54:42,675 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 15:54:42,723 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:04:43,469 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:04:47,591 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:04:47,661 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:04:47,661 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:04:47,751 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:04:49,754 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 16:04:49,789 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:25:56,372 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:26:01,513 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:26:01,598 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:26:01,599 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:26:01,671 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:26:03,673 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 16:26:03,721 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:26:04,273 — sunnxt_homepage — ERROR — name 'signin_invalid_format_xpath' is not defined
+Traceback (most recent call last):
+  File "sunnxt.py", line 164, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 137, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, signin_invalid_format_xpath))
+NameError: name 'signin_invalid_format_xpath' is not defined
+2019-05-30 16:26:29,189 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:26:34,667 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:26:34,742 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:26:34,742 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:26:34,804 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:26:36,806 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 16:26:36,842 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:26:45,780 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 164, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 137, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, signin_invalid_format_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 16:27:32,503 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:27:48,642 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:27:48,684 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:27:48,684 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:27:48,741 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:27:50,742 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 16:27:50,776 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:28:01,621 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 164, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 137, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, signin_invalid_format_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 16:29:23,522 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:29:27,313 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:29:27,377 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:29:27,377 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:29:27,498 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:29:29,501 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 16:29:29,538 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:29:47,565 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 164, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 137, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, signin_invalid_format_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 16:31:49,891 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:31:53,652 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:31:53,734 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:31:53,734 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:31:53,810 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:31:55,810 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 16:31:55,846 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:32:13,882 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 164, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 137, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, signin_invalid_format_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 16:33:08,344 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:33:11,709 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:33:11,769 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:33:11,769 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:33:11,872 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:33:13,874 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 16:33:13,918 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:38:11,904 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:38:16,586 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:38:16,665 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:38:16,665 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:38:16,773 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:38:18,774 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 16:38:18,813 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:38:36,712 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 164, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 137, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, signin_invalid_format_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 16:38:57,581 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:39:05,353 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:39:05,409 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:39:05,409 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:39:05,465 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:39:07,466 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 16:39:07,504 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:39:25,421 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 164, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 137, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, signin_invalid_format_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 16:39:39,633 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:39:43,334 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:39:43,394 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:39:43,394 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:39:43,506 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:39:45,508 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 16:39:45,609 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:40:03,331 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 164, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 137, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, signin_invalid_format_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 16:41:24,608 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:41:28,620 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:41:28,689 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:41:28,690 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:41:28,816 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:41:30,818 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 16:41:30,851 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:41:48,851 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 164, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 137, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, signin_invalid_format_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 16:42:41,383 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:42:46,097 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:42:46,145 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:42:46,145 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:42:46,201 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:42:48,202 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 16:42:48,225 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:43:06,142 — sunnxt_homepage — ERROR — Message: 
+Traceback (most recent call last):
+  File "sunnxt.py", line 164, in test_homepage
+    self.verify_login_form()
+  File "sunnxt.py", line 137, in verify_login_form
+    EC.presence_of_element_located((By.XPATH, signin_invalid_format_xpath))
+  File "/home/apalya/workspace/python/selenium-working/venv/lib/python3.6/site-packages/selenium/webdriver/support/wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+2019-05-30 16:43:26,576 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:43:30,877 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:43:30,969 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:43:30,969 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:43:31,077 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:43:33,078 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 16:43:33,104 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:44:24,841 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:44:28,706 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:44:28,795 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:44:28,795 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:44:28,867 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:44:30,869 — sunnxt_homepage — INFO — Verifying signin username text field
+2019-05-30 16:44:30,910 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:54:11,027 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:54:14,988 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:54:15,049 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:54:15,049 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:54:15,131 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:54:17,134 — sunnxt_homepage — INFO — Verifying form validations for signin
+2019-05-30 16:54:17,175 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:54:19,703 — sunnxt_homepage — INFO — Verifying Invalid user credentials
+2019-05-30 16:54:19,722 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:54:21,140 — sunnxt_homepage — ERROR — 'User does not exist. Please sign up.' not found in 'Please Enter Valid Email Or Mobile Number'
+Traceback (most recent call last):
+  File "sunnxt.py", line 207, in test_homepage
+    self.verify_invalid_user_credentials()
+  File "sunnxt.py", line 187, in verify_invalid_user_credentials
+    self.assertIn(user_doesnot_exist, wrong_credential.get_attribute("innerText") )
+  File "/usr/lib/python3.6/unittest/case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/usr/lib/python3.6/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: 'User does not exist. Please sign up.' not found in 'Please Enter Valid Email Or Mobile Number'
+2019-05-30 16:56:47,945 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:56:54,299 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:56:54,380 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:56:54,380 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:56:54,439 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:56:56,441 — sunnxt_homepage — INFO — Verifying form validations for signin
+2019-05-30 16:56:56,466 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:56:58,962 — sunnxt_homepage — INFO — Verifying Invalid user credentials
+2019-05-30 16:56:58,977 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:57:14,578 — sunnxt_homepage — ERROR — 'User does not exist. Please sign up.' not found in 'Please Enter Valid Email Or Mobile Number'
+Traceback (most recent call last):
+  File "sunnxt.py", line 210, in test_homepage
+    self.verify_invalid_user_credentials()
+  File "sunnxt.py", line 190, in verify_invalid_user_credentials
+    self.assertIn(user_doesnot_exist, wrong_credential.get_attribute("innerText") )
+  File "/usr/lib/python3.6/unittest/case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/usr/lib/python3.6/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: 'User does not exist. Please sign up.' not found in 'Please Enter Valid Email Or Mobile Number'
+2019-05-30 16:58:21,592 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:58:24,946 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:58:25,010 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:58:25,010 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:58:25,095 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:58:27,098 — sunnxt_homepage — INFO — Verifying form validations for signin
+2019-05-30 16:58:27,125 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:58:29,769 — sunnxt_homepage — INFO — Verifying Invalid user credentials
+2019-05-30 16:58:29,809 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:58:45,353 — sunnxt_homepage — ERROR — 'User does not exist. Please sign up.' not found in 'Please Enter Valid Email Or Mobile Number'
+Traceback (most recent call last):
+  File "sunnxt.py", line 210, in test_homepage
+    self.verify_invalid_user_credentials()
+  File "sunnxt.py", line 190, in verify_invalid_user_credentials
+    self.assertIn(user_doesnot_exist, wrong_credential.get_attribute("innerText") )
+  File "/usr/lib/python3.6/unittest/case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/usr/lib/python3.6/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: 'User does not exist. Please sign up.' not found in 'Please Enter Valid Email Or Mobile Number'
+2019-05-30 16:59:02,838 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 16:59:05,901 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 16:59:05,971 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 16:59:05,972 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 16:59:06,051 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 16:59:08,054 — sunnxt_homepage — INFO — Verifying form validations for signin
+2019-05-30 16:59:08,083 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:59:10,711 — sunnxt_homepage — INFO — Verifying Invalid user credentials
+2019-05-30 16:59:10,725 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 16:59:26,246 — sunnxt_homepage — ERROR — 'User does not exist. Please sign up.' not found in 'Please Enter Valid Email Or Mobile Number'
+Traceback (most recent call last):
+  File "sunnxt.py", line 210, in test_homepage
+    self.verify_invalid_user_credentials()
+  File "sunnxt.py", line 190, in verify_invalid_user_credentials
+    self.assertIn(user_doesnot_exist, wrong_credential.get_attribute("innerText") )
+  File "/usr/lib/python3.6/unittest/case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/usr/lib/python3.6/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: 'User does not exist. Please sign up.' not found in 'Please Enter Valid Email Or Mobile Number'
+2019-05-30 17:02:06,079 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 17:02:12,295 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 17:02:12,374 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 17:02:12,374 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 17:02:12,431 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 17:02:14,433 — sunnxt_homepage — INFO — Verifying form validations for signin
+2019-05-30 17:02:14,480 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 17:02:17,097 — sunnxt_homepage — INFO — Verifying Invalid user credentials
+2019-05-30 17:02:17,115 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 17:02:32,542 — sunnxt_homepage — ERROR — 'User does not exist. Please sign up.' not found in 'Kindly Verify Your User Id Or Password And Try Again.'
+Traceback (most recent call last):
+  File "sunnxt.py", line 214, in test_homepage
+    self.verify_invalid_user_credentials()
+  File "sunnxt.py", line 194, in verify_invalid_user_credentials
+    self.assertIn(user_doesnot_exist, wrong_credential.get_attribute("innerText") )
+  File "/usr/lib/python3.6/unittest/case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/usr/lib/python3.6/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: 'User does not exist. Please sign up.' not found in 'Kindly Verify Your User Id Or Password And Try Again.'
+2019-05-30 17:03:16,676 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 17:03:20,899 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 17:03:20,957 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 17:03:20,957 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 17:03:21,036 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 17:03:23,038 — sunnxt_homepage — INFO — Verifying form validations for signin
+2019-05-30 17:03:23,071 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 17:03:25,578 — sunnxt_homepage — INFO — Verifying Invalid user credentials
+2019-05-30 17:03:25,592 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 17:03:25,845 — sunnxt_homepage — INFO — Sendinv invalid credentials
+2019-05-30 17:03:25,882 — sunnxt_homepage — INFO — Clicking loggin button 
+2019-05-30 17:03:40,946 — sunnxt_homepage — ERROR — 'User does not exist. Please sign up.' not found in 'Please Enter Valid Email Or Mobile Number'
+Traceback (most recent call last):
+  File "sunnxt.py", line 216, in test_homepage
+    self.verify_invalid_user_credentials()
+  File "sunnxt.py", line 196, in verify_invalid_user_credentials
+    self.assertIn(user_doesnot_exist, wrong_credential.get_attribute("innerText") )
+  File "/usr/lib/python3.6/unittest/case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/usr/lib/python3.6/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: 'User does not exist. Please sign up.' not found in 'Please Enter Valid Email Or Mobile Number'
+2019-05-30 17:04:19,878 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 17:04:23,765 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 17:04:23,833 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 17:04:23,833 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 17:04:23,905 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 17:04:25,906 — sunnxt_homepage — INFO — Verifying form validations for signin
+2019-05-30 17:04:25,937 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 17:04:28,589 — sunnxt_homepage — INFO — Verifying Invalid user credentials
+2019-05-30 17:04:28,616 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 17:04:28,971 — sunnxt_homepage — INFO — Sendinv invalid credentials
+2019-05-30 17:04:29,071 — sunnxt_homepage — INFO — Clicking loggin button 
+2019-05-30 17:04:44,135 — sunnxt_homepage — ERROR — 'User does not exist. Please sign up.' not found in ''
+Traceback (most recent call last):
+  File "sunnxt.py", line 217, in test_homepage
+    self.verify_invalid_user_credentials()
+  File "sunnxt.py", line 197, in verify_invalid_user_credentials
+    self.assertIn(user_doesnot_exist, wrong_credential.get_attribute("innerText") )
+  File "/usr/lib/python3.6/unittest/case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/usr/lib/python3.6/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: 'User does not exist. Please sign up.' not found in ''
+2019-05-30 17:05:23,486 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 17:05:28,874 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 17:05:28,942 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 17:05:28,942 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 17:05:29,021 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 17:05:31,024 — sunnxt_homepage — INFO — Verifying form validations for signin
+2019-05-30 17:05:31,069 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 17:05:33,504 — sunnxt_homepage — INFO — Verifying Invalid user credentials
+2019-05-30 17:05:33,534 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 17:05:33,817 — sunnxt_homepage — INFO — Sendinv invalid credentials
+2019-05-30 17:05:35,921 — sunnxt_homepage — INFO — Clicking loggin button 
+2019-05-30 17:05:50,982 — sunnxt_homepage — ERROR — 'User does not exist. Please sign up.' not found in 'Kindly Verify Your User Id Or Password And Try Again.'
+Traceback (most recent call last):
+  File "sunnxt.py", line 218, in test_homepage
+    self.verify_invalid_user_credentials()
+  File "sunnxt.py", line 198, in verify_invalid_user_credentials
+    self.assertIn(user_doesnot_exist, wrong_credential.get_attribute("innerText") )
+  File "/usr/lib/python3.6/unittest/case.py", line 1089, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/usr/lib/python3.6/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: 'User does not exist. Please sign up.' not found in 'Kindly Verify Your User Id Or Password And Try Again.'
+2019-05-30 17:06:42,343 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 17:06:50,199 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 17:06:50,252 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 17:06:50,252 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 17:06:50,310 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 17:06:52,312 — sunnxt_homepage — INFO — Verifying form validations for signin
+2019-05-30 17:06:52,366 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 17:06:55,020 — sunnxt_homepage — INFO — Verifying Invalid user credentials
+2019-05-30 17:06:55,038 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 17:06:55,319 — sunnxt_homepage — INFO — Sendinv invalid credentials
+2019-05-30 17:06:57,425 — sunnxt_homepage — INFO — Clicking loggin button 
+2019-05-30 17:29:51,945 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 17:29:55,704 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 17:29:55,767 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 17:29:55,767 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 17:29:55,879 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 17:29:57,880 — sunnxt_homepage — INFO — Verifying form validations for signin
+2019-05-30 17:29:57,938 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 17:30:00,637 — sunnxt_homepage — INFO — Verifying Invalid user credentials
+2019-05-30 17:30:00,722 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 17:30:01,136 — sunnxt_homepage — INFO — Sendinv invalid credentials
+2019-05-30 17:30:03,253 — sunnxt_homepage — INFO — Clicking login button 
+2019-05-30 17:30:30,371 — sunnxt_homepage — INFO — Launching http://www.sunnxt.com in chrome browswer 
+2019-05-30 17:30:35,013 — sunnxt_homepage — INFO — Verifying profile icon
+2019-05-30 17:30:35,068 — sunnxt_homepage — INFO — Found profile icon, sent click event
+2019-05-30 17:30:35,068 — sunnxt_homepage — INFO — Verifying signin dropdown menu
+2019-05-30 17:30:35,131 — sunnxt_homepage — INFO — Found signin dropdown menu and sent click event
+2019-05-30 17:30:37,133 — sunnxt_homepage — INFO — Verifying form validations for signin
+2019-05-30 17:30:37,171 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 17:30:39,676 — sunnxt_homepage — INFO — Verifying Invalid user credentials
+2019-05-30 17:30:39,691 — sunnxt_homepage — INFO — Verifying password input field
+2019-05-30 17:30:39,956 — sunnxt_homepage — INFO — Sendinv invalid credentials
+2019-05-30 17:30:42,046 — sunnxt_homepage — INFO — Clicking login button 

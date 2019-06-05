@@ -1,0 +1,4 @@
+When you start your XPath expression with //, it search from root of document ignoring your parent element. You should prepend expression with .
+
+element2 = driver.find_element_by_xpath("//div[@title='div2']")
+element2.find_element_by_xpath(".//p[@class='test']").text
